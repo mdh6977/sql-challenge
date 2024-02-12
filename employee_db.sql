@@ -16,7 +16,7 @@ JOIN departments d
 ON dm.dept_no = d.dept_no
 ORDER BY d.dept_name ASC;
 
--- department of each employee (emp number, last name, first name, dept name)
+
 SELECT e.emp_no, e.last_name, e.first_name, d.dept_name
 FROM employees e
 JOIN dept_emp de 
